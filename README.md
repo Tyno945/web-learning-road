@@ -4,6 +4,9 @@ the road to become a good front-end developer
 学会使用Markdown记笔记
 [Markdown语法参考](https://www.zybuluo.com/techird/note/46064)
 
+# Learn to code in 2018, get hired, and have fun along the way
+[原文链接](https://hackernoon.com/learn-to-code-in-2018-get-hired-and-have-fun-along-the-way-b338247eed6a)
+
 ## The 5 months, step by step
 
 get excited!
