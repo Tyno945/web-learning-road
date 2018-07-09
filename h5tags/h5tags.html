@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>这是网页标题</title>
+	<!-- 定义文档与外部资源的关系 -->
+	<link rel="stylesheet" href="css/main.css">
+	<style>
+		/*定义内联CSS样式*/
+	</style>
+</head>
+<body>
+<!-- 这是注释 文档主体-->
+<header>
+<!-- 这是定义了文档的头部区域 -->
+	<!-- 这是页面logo -->
+	<img src="img/logo.gif" alt="图片描述，用于屏幕阅读器或图片无法加载时使用">
+	<!-- 定义导航链接的部分 -->
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li><a href="live.html">Live</a></li>
+            <li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+<article>
+<!-- 基础 -->
+	<div>
+		<!-- 定义 HTML 标题 -->
+		<h1>一级标题</h1>
+		<h2>二级标题</h2>
+		<h3>三级标题</h3>
+		<h4>四级标题</h4>
+		<h5>五级标题</h5>
+		<h6>六级标题</h6>
+		<!-- 定义一个段落 -->
+		<p>这是段落<span>这是span</span><a href="#">这是链接</a></p>
+	</div>
+<!-- 列表 -->
+	<div>
+		<ul>
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+		</ul> 
+		<ol>
+		  <li>Coffee</li>
+		  <li>Tea</li>
+		  <li>Milk</li>
+		</ol>
+
+		<ol start="50">
+		  <li>Coffee</li>
+		  <li>Tea</li>
+		  <li>Milk</li>
+		</ol>
+		<dl>
+		  <dt>Coffee</dt>
+		    <dd>Black hot drink</dd>
+		  <dt>Milk</dt>
+		    <dd>White cold drink</dd>
+		</dl> 
+	</div>
+<!-- 表单 -->
+	<div>
+		<!-- 定义一个 HTML 表单，用于用户输入 -->
+		<form method="post" action="submit.html">
+		    <fieldset>
+		    	<legend>Personalia:</legend>
+		        <p>
+		            <label for="name">Name:</label>
+		            <input type="text" id="name" name="name" placeholder="Your name" required="required" />
+		        </p>
+		        <p>
+		            <label for="email">Email:</label>
+		            <input type="email" id="email" name="email" placeholder="Your email address" required="required">
+		        </p>
+		        <p>
+		        	<label for="password">Password:</label>
+		            <input type="password" id="password" name="password" placeholder="Your password" required="required">
+		        </p>
+		    </fieldset>
+	        <p>
+	        	<label><input type="radio" name="indoor-outdoor"> Indoor</label>
+	        	<label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+	        </p>
+	        <p>
+	        	<label><input type="checkbox" name="personality"> Loving</label>
+	        	<label><input type="checkbox" name="personality"> Lazy</label>
+	        	<label><input type="checkbox" name="personality"> Crazy</label>
+	        </p>
+	        <p>
+	        	<select>
+	        	  <optgroup label="Swedish Cars">
+	        	    <option value="volvo">Volvo</option>
+	        	    <option value="saab">Saab</option>
+	        	  </optgroup>
+	        	  <optgroup label="German Cars">
+	        	    <option value="mercedes">Mercedes</option>
+	        	    <option value="audi">Audi</option>
+	        	  </optgroup>
+	        	</select> 
+	        </p>
+	        <p>	        
+	        	<!-- 规定了 input 元素可能的选项列表 -->
+	        	<label>browsers:</label>
+	        	<input list="browsers">	        	 
+	        	<datalist id="browsers">
+	        	  <option value="Internet Explorer">
+	        	  <option value="Firefox">
+	        	  <option value="Chrome">
+	        	  <option value="Opera">
+	        	  <option value="Safari">
+	        	</datalist>
+	        </p>
+	        <p>
+	            <label for="message">Message:</label>
+	            <textarea name="message" id="message" cols="45" rows="7" placeholder="Write your message here." required="required"></textarea>
+	        </p>
+	        <input type="submit" value="Send">
+	        <button type="submit">Submit</button>
+		</form>
+	</div>
+<!-- 图像 -->
+	<div>
+	<!-- 图片链接 -->
+	<ul id="imagegallery">
+	    <li>
+	        <a href="img/photos/concert.jpg" title="The crowd goes wild">
+	            <img src="img/photos/thumbnail_concert.jpg" alt="the band in concert" />
+	        </a>
+	    </li>
+	    <li>
+	        <a href="img/photos/bassist.jpg" title="An atmospheric moment">
+	            <img src="img/photos/thumbnail_bassist.jpg" alt="the bassist" />
+	        </a>
+	    </li>
+	    <li>
+	        <a href="img/photos/guitarist.jpg" title="Rocking out">
+	            <img src="img/photos/thumbnail_guitarist.jpg" alt="the guitarist" />
+	        </a>
+	    </li>
+	    <li>
+	        <a href="img/photos/crowd.jpg" title="Encore! Encore!">
+	            <img src="img/photos/thumbnail_crowd.jpg" alt="the audience" />
+	        </a>
+	    </li>
+	</ul>
+	<!--map标签 定义图像映射 -->
+	<img src="img/planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+
+	<map id="planetmap" name="planetmap">
+	  <area shape="rect" coords="0,0,82,126" href="img/sun.gif" alt="Sun">
+	  <area shape="circle" coords="90,58,3" href="img/merglobe.gif" alt="Mercury">
+	  <area shape="circle" coords="124,58,8" href="img/venglobe.gif" alt="Venus">
+	</map> 
+	<!--canvas画布 通过脚本（通常是 JavaScript）来绘制图形（比如图表和其他图像） -->
+	<canvas id="myCanvas">你的浏览器不支持 HTML5 canvas 标签。</canvas>
+
+	<script>
+	var c=document.getElementById('myCanvas');
+	var ctx=c.getContext('2d');
+	ctx.fillStyle='#FF0000';
+	ctx.fillRect(0,0,100,100);
+	</script>
+
+	</div>
+<!-- Audio/Video -->
+	<div>
+		<!-- 定义声音，比如音乐或其他音频流 -->
+		<audio controls>
+		  <source src="horse.ogg" type="audio/ogg">
+		  <source src="horse.mp3" type="audio/mpeg">
+		  <source src="horse.wav" type="audio/wav">
+		  您的浏览器不支持 audio 元素。
+		</audio>
+
+		<!-- 定义一个音频或者视频
+		MP4 = MPEG 4文件使用 H264 视频编解码器和AAC音频编解码器
+		WebM = WebM 文件使用 VP8 视频编解码器和 Vorbis 音频编解码器
+		Ogg = Ogg 文件使用 Theora 视频编解码器和 Vorbis音频编解码器
+		 -->
+		<video width="320" height="240" controls>
+		    <source src="movie.mp4" type="video/mp4">
+		    <source src="movie.ogg" type="video/ogg">
+		    <track src="subtitles_en.vtt" kind="subtitles" srclang="en"
+		    label="English">
+		    <track src="subtitles_no.vtt" kind="subtitles" srclang="no"
+		    label="Norwegian">
+		    您的浏览器不支持 video 标签。
+		</video>
+	</div>
+<!-- 表格 -->
+	<div>
+	<table>
+	<caption>Live</caption>
+	    <thead>
+	    <tr>
+	        <th>Date</th>
+	        <th>City</th>
+	        <th>Venue</th>
+	    </tr>
+	    </thead>
+	    <tbody>
+	    <tr>
+	        <td>June 9th</td>
+	        <td>Portland, <abbr title="Oregon">OR</abbr></td>
+	        <td>Crystal Ballroom</td>
+	    </tr>
+	    <tr>
+	        <td>June 10th</td>
+	        <td>Seattle, <abbr title="Washington">WA</abbr></td>
+	        <td>Crocodile Cafe</td>
+	    </tr>
+	    <tr>
+	        <td>June 12th</td>
+	        <td>Sacramento, <abbr title="California">CA</abbr></td>
+	        <td>Torch Club</td>
+	    </tr>
+	    <tr>
+	        <td>June 17th</td>
+	        <td>Austin, <abbr title="Texas">TX</abbr></td>
+	        <td>Speakeasy</td>
+	    </tr>
+	    </tbody>
+	</table>	
+	</div>
+
+<!-- 格式 -->
+	<blockquote cite="http://www.worldwildlife.org/who/index.html">
+	<p>
+		The<abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+		For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in <em>100</em> countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+	</p>	
+	</blockquote> 
+
+
+</article>
+<footer>
+	
+</footer>
+</body>
+</html>

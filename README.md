@@ -1,10 +1,12 @@
 # web-learning-road
+
 the road to become a good front-end developer
 
 学会使用Markdown记笔记
 [Markdown语法参考](https://www.zybuluo.com/techird/note/46064)
 
 # Learn to code in 2018, get hired, and have fun along the way
+
 [原文链接](https://hackernoon.com/learn-to-code-in-2018-get-hired-and-have-fun-along-the-way-b338247eed6a)
 
 ## The 5 months, step by step
@@ -13,6 +15,7 @@ get excited!
 We will be focusing on the most employable and in demand skills in 2018. No time for outdated technologies like PHP or jQuery. There is nothing wrong with them, and I have total respect, but based on some of the emails I have received over the years, a lot of people are in financial need and have families that they have to support. Time is important to them and they want to be employable as soon as possible.
 
 ### First Month: The Big Picture
+
 **Big question to answer:** How do computers, the internet and websites work? How can I build a website?
 
 * Understand the [Feynman Technique](https://medium.com/taking-note/learning-from-the-feynman-technique-5373014ad230) so you really learn over the course of the next 5 months instead of just using your short term memory.
@@ -28,21 +31,24 @@ We will be focusing on the most employable and in demand skills in 2018. No time
 
 
 ### Second Month: Javascript
+
 **Big question to answer:** How does javascript make machines do what you want?
 
-This is where most of your focus will be in the later months. What problem does Javascript solve? Start writing little programs in Javascript to make your website behave in a certain way. This language makes your websites do things other than just look pretty. Start with these two courses: one and two
-Read the Eloquent Javascript book.
-Learn about DOM manipulation.
-Read this great article about programming.
-Learn how you can use chrome developer console to write javascript. Do this CodeSchool course (only the console section). Then learn to inject <script> tags in your html to run javascript files.
-Watch this by Kyle Simpson, and finish the rest of the course you started the first month. Finally, finish these five courses on the javascript track from CodeSchool.
-Use this guide from freeCodeCamp for short lookups if you have questions throughout the 5 months.
-Learn the new ES6 features in this two part series: one and two.
-Learn git and Github with these courses. Create a Github profile and start making commits every day. Start developing a sample website.
-Terminology/Jargon: this video and this.
-Finally, watch this great playlist on youtube. Ignore the sections on jQuery and Grunt.
-Start using this guide whenever you have questions and you want to dig deeper into a topic.
-Third Month: Javascript + NPM + Building Your Website
+* This is where most of your focus will be in the later months. What problem does Javascript solve? Start writing little programs in Javascript to make your website behave in a certain way. This language makes your websites do things other than just look pretty. Start with these two courses: [one](http://javascript.info/) and [two](https://www.codecademy.com/learn/learn-javascript)
+* Read the [Eloquent Javascript book](http://eloquentjavascript.net/).
+* Learn about [DOM manipulation](https://www.w3schools.com/js/js_htmldom.asp).
+* Read [this great article about programming](https://medium.freecodecamp.org/a-gentler-introduction-to-programming-1f57383a1b2c).
+* Learn how you can use chrome developer console to write javascript. Do [this CodeSchool course](https://www.codeschool.com/courses/discover-devtools) (only the console section). Then learn to inject `<script>` tags in your html to run javascript files.
+* Watch [this](https://frontendmasters.com/courses/javascript-basics/) by Kyle Simpson, and finish the rest of the course you started the [first month](https://frontendmasters.com/courses/web-development/). Finally, finish [these five courses](https://www.codeschool.com/learn/javascript) on the javascript track from CodeSchool.
+* Use this [guide](https://guide.freecodecamp.org/) from freeCodeCamp for short lookups if you have questions throughout the 5 months.
+* Learn the new ES6 features in this two part series: [one](https://www.youtube.com/watch?v=AfWYO8t7ed4) and [two](https://www.youtube.com/watch?v=LmL0Gh193M0).
+* Learn git and Github with [these courses](https://www.codeschool.com/learn/git). Create a Github profile and start making commits every day. Start developing a sample website.
+* Terminology/Jargon: [this video](https://www.youtube.com/watch?v=sBzRwzY7G-k) and [this](http://jargon.js.org/).
+* Finally, watch this [great playlist on youtube](https://www.youtube.com/watch?v=3JluqTojuME&list=PLoYCgNOIyGAB_8_iq1cL8MVeun7cB6eNc). Ignore the sections on jQuery and Grunt.
+* Start using [this guide](https://frontendmasters.com/books/front-end-handbook/2017/) whenever you have questions and you want to dig deeper into a topic.
+
+### Third Month: Javascript + NPM + Building Your Website
+
 Big question to answer: Can I build a professional looking website and understand the entire process?
 
 Google Developer Tools → learn how to debug your programs and websites using google Chrome. Finish this CodeSchool course if you haven’t done it yet.
@@ -54,7 +60,7 @@ Finally, watch this course by Douglas Crockford.
 Learn about the history of modules in Javascript here.
 download node.js and npm. Download lodash from npm and use browserify to use Common Js imports. Learn about it here. Understand why npm is such an amazing tool for developers.
 By the end of the month you should have a personal website up with the codebase on Github. Use Github pages to have a live website for free.
-Fourth Month: React.js (or Vue.js)
+### Fourth Month: React.js (or Vue.js)
 Big question to answer: What problem does React or Vue solve?
 
 I’m heavily biased. I love React.js. As a matter of fact, I teach it to others and run workshops on it. So just trust me on this one. Learn React unless you have a good reason to learn Vue.js. It’s new and exciting, but the job demand just isn’t there yet.
@@ -67,7 +73,7 @@ Deploy your app on Heroku.
 Deploy your app on GitHub pages.
 Start following top 10 articles on Medium and read any article on coding that ever comes up. Sign up to these email lists to keep in touch with what is happening in the industry: Javascript and React.
 Start building your online resume. There are people that give better advice than me on this. Check this and this out. I also wrote an article on this that you can check out, but this post is already getting too long and you’re starting to give me evil eyes.
-Last Month: Servers, Databases and Connecting the Dots
+### Last Month: Servers, Databases and Connecting the Dots
 Big question to answer: Where do servers, databases, and raspberryPis fit into all of this?
 
 HTTP, JSON and AJAX. Learn how these allow you to communicate with servers.
@@ -76,6 +82,7 @@ Once you are done with this, use a fun API like this one and build a simple app.
 Subscribe to the computerphile youtube channel and watch their videos as they come. Even though topics may be difficult, it will introduce you to some amazing things.
 What is a Computer/Server/OS: buy a raspberryPi and build your own server. Look up different projects on youtube you can do with your raspberryPi. Finally, build a simple script that makes lights attached to your raspberryPi blink. Follow this course. Host your website on the raspberry pie. Be amazed at how cool you are.
 Spend one day each on the below subjects. You don’t need to have a good grasp on them. Just learn why they are there and what problems they are solving: Testing, Machine Learning, Time Complexity, SQL, UX/UI, Continuous Delivery, Basic Data structures. You should be able to explain what a data structure is. Hint: Arrays and Objects are two popular Javascript data structures.
+
 ***I can already hear people screaming at me with the above suggestion. “Are you out of your mind?! You don’t think testing is important?” But hear me out. I do agree that the above is important to be a good developer, and everybody should learn those skills. However, we are trying to build a trunk of foundation here. It is easy to start diving deep into a topic, but without the foundation you won’t actually know why it’s important, or how it relates to what you are doing. Additionally, in most job postings I found, there was very little mention of the above skills. Just save learning these until you are on the job.***
 
 REMEMBER: your goal is to get employed in the most efficient manner.
