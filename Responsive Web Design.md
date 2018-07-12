@@ -291,6 +291,58 @@ There are three main ways to apply CSS styling. You can apply inline styles dire
 
 Visual Design in web development is a broad topic. It combines typography, color theory, graphics, animation, and page layout to help deliver a site's message. 
 
+* Create Visual Balance Using the text-align Property
+* PassedAdjust the Width of an Element Using the width Property
+* PassedAdjust the Height of an Element Using the height Property
+* PassedUse the strong Tag to Make Text Bold
+* PassedUse the u Tag to Underline Text
+* PassedUse the em Tag to Italicize Text
+* PassedUse the del Tag to Strikethrough Text
+* PassedCreate a Horizontal Line Using the hr Element
+* PassedAdjust the background-color Property of Text
+* PassedAdjust the Size of a Header Versus a Paragraph Tag
+* PassedAdd a box-shadow to a Card-like Element
+* PassedDecrease the Opacity of an Element
+* PassedUse the text-transform Property to Make Text Uppercase
+* PassedSet the font-size for Multiple Heading Elements
+* PassedSet the font-weight for Multiple Heading Elements
+* PassedSet the font-size of Paragraph Text
+* PassedSet the line-height of Paragraphs
+* PassedAdjust the Hover State of an Anchor Tag
+* PassedChange an Element's Relative Position
+* PassedMove a Relatively Positioned Element with CSS Offsets
+* PassedLock an Element to its Parent with Absolute Positioning
+* PassedLock an Element to the Browser Window with Fixed Positioning
+* PassedPush Elements Left or Right with the float Property
+* PassedChange the Position of Overlapping Elements with the z-index * Property
+* PassedCenter an Element Horizontally Using the margin Property
+* PassedLearn about Complementary Colors
+* PassedLearn about Tertiary Colors
+* PassedAdjust the Color of Various Elements to Complementary Colors
+* PassedAdjust the Hue of a Color
+* PassedAdjust the Tone of a Color
+* PassedCreate a Gradual CSS Linear Gradient
+* PassedUse a CSS Linear Gradient to Create a Striped Element
+* PassedCreate Texture by Adding a Subtle Pattern as a Background * Image
+* PassedUse the CSS Transform scale Property to Change the Size of * an Element
+* PassedUse the CSS Transform scale Property to Scale an Element on * Hover
+* PassedUse the CSS Transform Property skewX to Skew an Element * Along the X-Axis
+* PassedUse the CSS Transform Property skewY to Skew an Element * Along the Y-Axis
+* PassedCreate a Graphic Using CSS
+* PassedCreate a More Complex Shape Using CSS and HTML
+* PassedLearn How the CSS @keyframes and animation Properties Work
+* PassedUse CSS Animation to Change the Hover State of a Button
+* PassedModify Fill Mode of an Animation
+* PassedCreate Movement Using CSS Animation
+* PassedCreate Visual Direction by Fading an Element from Left to * Right
+* PassedAnimate Elements Continually Using an Infinite Animation * Count
+* PassedMake a CSS Heartbeat using an Infinite Animation Count
+* PassedAnimate Elements at Variable Rates
+* PassedAnimate Multiple Elements at Variable Rates
+* PassedChange Animation Timing with Keywords
+* PassedLearn How Bezier Curves Work
+* PassedUse a Bezier Curve to Move a Graphic
+* PassedMake Motion More Natural Using a Bezier Curve
 
 ```html
 <!-- Make a CSS Heartbeat using an Infinite Animation Count -->
@@ -375,3 +427,28 @@ Visual Design in web development is a broad topic. It combines typography, color
 2. ensure text alternatives exist for non-text and visual content
 
 3. create an easily-navigated page that's keyboard-friendly
+
+* Add a Text Alternative to Images for Visually Impaired Accessibility
+* PassedKnow When Alt Text Should be Left Blank
+* PassedUse Headings to Show Hierarchical Relationships of Content
+* PassedJump Straight to the Content Using the main Element
+* PassedWrap Content in the article Element
+* PassedMake Screen Reader Navigation Easier with the header Landmark
+* PassedMake Screen Reader Navigation Easier with the nav Landmark
+* PassedMake Screen Reader Navigation Easier with the footer Landmark
+* PassedImprove Accessibility of Audio Content with the audio Element
+* PassedImprove Chart Accessibility with the figure Element
+* PassedImprove Form Field Accessibility with the label Element
+* PassedWrap Radio Buttons in a fieldset Element for Better Accessibility
+* PassedAdd an Accessible Date Picker
+* PassedStandardize Times with the HTML5 datetime Attribute
+* PassedMake Elements Only Visible to a Screen Reader by Using Custom CSS
+* PassedImprove Readability with High Contrast Text
+* PassedAvoid Colorblindness Issues by Using Sufficient Contrast
+* PassedAvoid Colorblindness Issues by Carefully Choosing Colors that Convey Information
+* PassedGive Links Meaning by Using Descriptive Link Text
+* PassedMake Links Navigatable with HTML Access Keys
+* PassedUse tabindex to Add Keyboard Focus to an Element
+* PassedUse tabindex to Specify the Order of Keyboard Focus for Several Elements
+
+## Introduction to the Responsive Web Design Challenges
