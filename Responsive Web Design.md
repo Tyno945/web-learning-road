@@ -452,3 +452,144 @@ Visual Design in web development is a broad topic. It combines typography, color
 * PassedUse tabindex to Specify the Order of Keyboard Focus for Several Elements
 
 ## Introduction to the Responsive Web Design Challenges
+
+Responsive Web Design is an approach to designing web content that responds to the constraints of different devices. The page structure and CSS rules should be flexible to accommodate these differences. In general, design the page's CSS to your target audience. 
+
+* Create a Media Query
+* Make an Image Responsive
+* Use a Retina Image for Higher Resolution Displays
+* Make Typography Responsive
+
+## Introduction to the CSS Flexbox Challenges
+
+CSS3 introduced Flexible Boxes, or flexbox, to create page layouts for a dynamic UI. It is a layout mode that arranges elements in a predictable way for different screen sizes and browsers. 
+
+* Use display: flex to Position Two Boxes
+* Add Flex Superpowers to the Tweet Embed
+* Use the flex-direction Property to Make a Row
+* Apply the flex-direction Property to Create Rows in the Tweet Embed
+* Use the flex-direction Property to Make a Column
+* Apply the flex-direction Property to Create a Column in the Tweet * Embed
+* Align Elements Using the justify-content Property
+* Use the justify-content Property in the Tweet Embed
+* Align Elements Using the align-items Property
+* Use the align-items Property in the Tweet Embed
+* Use the flex-wrap Property to Wrap a Row or Column
+* Use the flex-shrink Property to Shrink Items
+* Use the flex-grow Property to Expand Items
+* Use the flex-basis Property to Set the Initial Size of an Item
+* Use the flex Shorthand Property
+* Use the order Property to Rearrange Items
+* Use the align-self Property
+
+## Introduction to the CSS Grid Challenges
+
+CSS Grid helps you easily build complex web designs. It works by turning an HTML element into a grid container with rows and columns for you to place children elements where you want within the grid.
+
+* Create Your First CSS Grid
+* Add Columns with grid-template-columns
+* Add Rows with grid-template-rows
+* Use CSS Grid units to Change the Size of Columns and Rows
+* Create a Column Gap Using grid-column-gap
+* Create a Row Gap using grid-row-gap
+* Add Gaps Faster with grid-gap
+* Use grid-column to Control Spacing
+* Use grid-row to Control Spacing
+* Align an Item Horizontally using justify-self
+* Align an Item Vertically using align-self
+* Align All Items Horizontally using justify-items
+* Align All Items Vertically using align-items
+* Divide the Grid Into an Area Template
+* Place Items in Grid Areas Using the grid-area Property
+* Use grid-area Without Creating an Areas Template
+* Reduce Repetition Using the repeat Function
+* Limit Item Size Using the minmax Function
+* Create Flexible Layouts Using auto-fill
+* Create Flexible Layouts Using auto-fit
+* Use Media Queries to Create Responsive Layouts
+* Create Grids within Grids
+
+```html
+<!-- CSS Grid: Use Media Queries to Create Responsive Layouts -->
+
+<style>
+  .item1 {
+    background: LightSkyBlue;
+    grid-area: header;
+  }
+  
+  .item2 {
+    background: LightSalmon;
+    grid-area: advert;
+  }
+  
+  .item3 {
+    background: PaleTurquoise;
+    grid-area: content;
+  }
+  
+  .item4 {
+    background: lightpink;
+    grid-area: footer;
+  }
+  
+  .container {
+    font-size: 1.5em;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px auto 1fr auto;
+    grid-gap: 10px;
+    grid-template-areas:
+      "header"
+      "advert"
+      "content"
+      "footer";
+  }
+  
+  @media (min-width: 300px){
+    .container{
+      grid-template-columns: auto 1fr;
+      grid-template-rows: auto 1fr auto;
+      grid-template-areas:
+        "advert header"
+        "advert content"
+        "advert footer";
+    }
+  }
+  
+  @media (min-width: 400px){
+    .container{
+      /* change the code below this line */
+    
+      grid-template-areas:
+        "advert header"
+        "advert content"
+        "advert footer";
+    
+    /* change the code above this line */
+    }
+  }
+</style>
+  
+<div class="container">
+  <div class="item1">header</div>
+  <div class="item2">advert</div>
+  <div class="item3">content</div>
+  <div class="item4">footer</div>
+</div>
+```
+
+## Introduction to the Responsive Web Design Projects
+
+ By working on projects you would have the opportunity of applying all the skills, principles and concepts you have learnt so far HTML, CSS, Visual Design, Accessibility, etc.
+
+In this section you get the chance to:
+
+* Build a Tribute Page
+* Build a Survey Form
+* Build a Product Landing Page
+* Build a Technical Documentation Page
+* Build a Personal Portfolio Webpage
