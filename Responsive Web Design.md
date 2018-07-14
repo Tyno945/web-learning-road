@@ -4,6 +4,34 @@
 
 HTML, or HyperText Markup Language, is a markup language used to describe the structure of a web page. It uses a special syntax or notation to organize and give information about the page to the browser. Elements usually have opening and closing tags that surround and give meaning to content. For example, there are different tag options to place around text to show whether it is a heading, a paragraph, or a list.
 
+* Say Hello to HTML Elements
+* PassedHeadline with the h2 Element
+* PassedInform with the Paragraph Element
+* PassedFill in the Blank with Placeholder Text
+* PassedUncomment HTML
+* PassedComment out HTML
+* PassedDelete HTML Elements
+* PassedIntroduction to HTML5 Elements
+* PassedAdd Images to Your Website
+* PassedLink to External Pages with Anchor Elements
+* PassedLink to Internal Sections of a Page with Anchor Elements
+* PassedNest an Anchor Element within a Paragraph
+* PassedMake Dead Links Using the Hash Symbol
+* PassedTurn an Image into a Link
+* PassedCreate a Bulleted Unordered List
+* PassedCreate an Ordered List
+* PassedCreate a Text Field
+* PassedAdd Placeholder Text to a Text Field
+* PassedCreate a Form Element
+* PassedAdd a Submit Button to a Form
+* PassedUse HTML5 to Require a Field
+* PassedCreate a Set of Radio Buttons
+* PassedCreate a Set of Checkboxes
+* PassedCheck Radio Buttons and Checkboxes by Default
+* PassedNest Many Elements within a Single div Element
+* PassedDeclare the Doctype of an HTML Document
+* PassedDefine the Head and Body of an HTML Document
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -50,6 +78,49 @@ Cascading Style Sheets (CSS) tell the browser how to display the text and other 
 
 There are three main ways to apply CSS styling. You can apply inline styles directly to HTML elements with the style attribute. Alternatively, you can place CSS rules within style tags in an HTML document. Finally, you can write CSS rules in an external style sheet, then reference that file in the HTML document.
 
+* Change the Color of Text
+* PassedUse CSS Selectors to Style Elements
+* PassedUse a CSS Class to Style an Element
+* PassedStyle Multiple Elements with a CSS Class
+* PassedChange the Font Size of an Element
+* PassedSet the Font Family of an Element
+* PassedImport a Google Font
+* PassedSpecify How Fonts Should Degrade
+* PassedSize Your Images
+* PassedAdd Borders Around Your Elements
+* PassedAdd Rounded Corners with border-radius
+* PassedMake Circular Images with a border-radius
+* PassedGive a Background Color to a div Element
+* PassedSet the id of an Element
+* PassedUse an id Attribute to Style an Element
+* PassedAdjust the Padding of an Element
+* PassedAdjust the Margin of an Element
+* PassedAdd a Negative Margin to an Element
+* PassedAdd Different Padding to Each Side of an Element
+* PassedAdd Different Margins to Each Side of an Element
+* PassedUse Clockwise Notation to Specify the Padding of an Element
+* PassedUse Clockwise Notation to Specify the Margin of an Element
+* PassedUse Attribute Selectors to Style Elements
+* PassedUnderstand Absolute versus Relative Units
+* PassedStyle the HTML Body Element
+* PassedInherit Styles from the Body Element
+* PassedPrioritize One Style Over Another
+* PassedOverride Styles in Subsequent CSS
+* PassedOverride Class Declarations by Styling ID Attributes
+* PassedOverride Class Declarations with Inline Styles
+* PassedOverride All Other Styles by using Important
+* PassedUse Hex Code for Specific Colors
+* PassedUse Hex Code to Mix Colors
+* PassedUse Abbreviated Hex Code
+* PassedUse RGB values to Color Elements
+* PassedUse RGB to Mix Colors
+* PassedUse CSS Variables to change several elements at once
+* PassedCreate a custom CSS Variable
+* PassedUse a custom CSS Variable
+* PassedAttach a Fallback value to a CSS Variable
+* PassedCascading CSS variables
+* PassedChange a variable for a specific area
+* PassedUse a media query to change a variable
 
 ```html
 
@@ -459,6 +530,15 @@ Responsive Web Design is an approach to designing web content that responds to t
 * Make an Image Responsive
 * Use a Retina Image for Higher Resolution Displays
 * Make Typography Responsive
+
+```css
+// Make an Image Responsive
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+```
 
 ## Introduction to the CSS Flexbox Challenges
 
