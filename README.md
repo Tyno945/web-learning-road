@@ -49,43 +49,49 @@ We will be focusing on the most employable and in demand skills in 2018. No time
 
 ### Third Month: Javascript + NPM + Building Your Website
 
-Big question to answer: Can I build a professional looking website and understand the entire process?
+**Big question to answer:** Can I build a professional looking website and understand the entire process?
 
-Google Developer Tools → learn how to debug your programs and websites using google Chrome. Finish this CodeSchool course if you haven’t done it yet.
-Start attending local meet-ups on coding and Javascript.
-Learn the difference between synchronous and asynchronous javascript.
-What is the event loop? → Once you have a good grasp of Javascript this talk will be a game changer. Hands down the best talk on javascript ever given.
-Learn about Promises, and Async Await in ES7 here.
-Finally, watch this course by Douglas Crockford.
-Learn about the history of modules in Javascript here.
-download node.js and npm. Download lodash from npm and use browserify to use Common Js imports. Learn about it here. Understand why npm is such an amazing tool for developers.
-By the end of the month you should have a personal website up with the codebase on Github. Use Github pages to have a live website for free.
+* Google Developer Tools → learn how to debug your programs and websites using google Chrome. Finish [this CodeSchool course](https://www.codeschool.com/courses/discover-devtools) if you haven’t done it yet.
+* Start attending local meet-ups on coding and Javascript.
+* Learn the [difference between synchronous and asynchronous javascript](https://blog.risingstack.com/asynchronous-javascript/).
+* What is the event loop? → Once you have a good grasp of Javascript [this](https://www.youtube.com/watch?v=8aGhZQkoFbQ) talk will be a game changer. Hands down the best talk on javascript ever given.
+* Learn about Promises, and Async Await in ES7 [here](https://www.youtube.com/watch?v=568g8hxJJp4&t).
+* Finally, watch [this](https://frontendmasters.com/courses/good-parts-javascript-web/) course by Douglas Crockford.
+* Learn about the history of modules in Javascript [here](https://medium.freecodecamp.org/javascript-modules-a-beginner-s-guide-783f7d7a5fcc).
+* [download node.js and npm.](https://www.sitepoint.com/beginners-guide-node-package-manager/) Download [lodash](https://www.npmjs.com/package/lodash) from npm and use [browserify](http://browserify.org/) to use Common Js imports. Learn about it [here](https://scotch.io/tutorials/getting-started-with-browserify). Understand why npm is such an amazing tool for developers.
+* By the end of the month you should have a personal website up with the codebase on Github. Use [Github pages](https://pages.github.com/) to have a live website for free.
+
 ### Fourth Month: React.js (or Vue.js)
-Big question to answer: What problem does React or Vue solve?
+
+**Big question to answer:** What problem does React or Vue solve?
 
 I’m heavily biased. I love React.js. As a matter of fact, I teach it to others and run workshops on it. So just trust me on this one. Learn React unless you have a good reason to learn Vue.js. It’s new and exciting, but the job demand just isn’t there yet.
 
-React → Do these in order: one, two, three. Then head on over to the official documentation and read through everything. If you have the money, this is the best react tutorial.
-If you have the time and you want even more in depth tutorial on react here it is
-Optional: Learn Redux → Watch this course. Don’t let your head explode. Then read the documentation for it as well.
-Build a sample React application using create-react-app. Create-react-app will blow you away. It will open up a new world for you.
-Deploy your app on Heroku.
-Deploy your app on GitHub pages.
-Start following top 10 articles on Medium and read any article on coding that ever comes up. Sign up to these email lists to keep in touch with what is happening in the industry: Javascript and React.
-Start building your online resume. There are people that give better advice than me on this. Check this and this out. I also wrote an article on this that you can check out, but this post is already getting too long and you’re starting to give me evil eyes.
+* React → Do these in order: one, two, three. Then head on over to the official documentation and read through everything. If you have the money, this is the best react tutorial.
+* If you have the time and you want even more in depth tutorial on react here it is
+* Optional: Learn Redux → Watch this course. Don’t let your head explode. Then read the documentation for it as well.
+* Build a sample React application using create-react-app. Create-react-app will blow you away. It will open up a new world for you.
+* Deploy your app on Heroku.
+* Deploy your app on GitHub pages.
+* Start following top 10 articles on Medium and read any article on coding that ever comes up. Sign up to these email lists to keep in touch with what is happening in the industry: Javascript and React.
+* Start building your online resume. There are people that give better advice than me on this. Check this and this out. I also wrote an article on this that you can check out, but this post is already getting too long and you’re starting to give me evil eyes.
+
 ### Last Month: Servers, Databases and Connecting the Dots
-Big question to answer: Where do servers, databases, and raspberryPis fit into all of this?
 
-HTTP, JSON and AJAX. Learn how these allow you to communicate with servers.
-Learn how to build an API server. Then go a step further and master node and Express.js here.
-Once you are done with this, use a fun API like this one and build a simple app.
-Subscribe to the computerphile youtube channel and watch their videos as they come. Even though topics may be difficult, it will introduce you to some amazing things.
-What is a Computer/Server/OS: buy a raspberryPi and build your own server. Look up different projects on youtube you can do with your raspberryPi. Finally, build a simple script that makes lights attached to your raspberryPi blink. Follow this course. Host your website on the raspberry pie. Be amazed at how cool you are.
-Spend one day each on the below subjects. You don’t need to have a good grasp on them. Just learn why they are there and what problems they are solving: Testing, Machine Learning, Time Complexity, SQL, UX/UI, Continuous Delivery, Basic Data structures. You should be able to explain what a data structure is. Hint: Arrays and Objects are two popular Javascript data structures.
+**Big question to answer:** Where do servers, databases, and raspberryPis fit into all of this?
 
+* HTTP, JSON and AJAX. Learn how these allow you to communicate with servers.
+* Learn how to build an API server. Then go a step further and master node and Express.js here.
+* Once you are done with this, use a fun API like this one and build a simple app.
+* Subscribe to the computerphile youtube channel and watch their videos as they come. Even though topics may be difficult, it will introduce you to some amazing things.
+* What is a Computer/Server/OS: buy a raspberryPi and build your own server. Look up different projects on youtube you can do with your raspberryPi. Finally, build a simple script that makes lights attached to your raspberryPi blink. Follow this course. Host your website on the raspberry pie. Be amazed at how cool you are.
+* Spend one day each on the below subjects. You don’t need to have a good grasp on them. Just learn why they are there and what problems they are solving: Testing, Machine Learning, Time Complexity, SQL, UX/UI, Continuous Delivery, Basic Data structures. You should be able to explain what a data structure is. Hint: Arrays and Objects are two popular Javascript data structures.
+
+```
 ***I can already hear people screaming at me with the above suggestion. “Are you out of your mind?! You don’t think testing is important?” But hear me out. I do agree that the above is important to be a good developer, and everybody should learn those skills. However, we are trying to build a trunk of foundation here. It is easy to start diving deep into a topic, but without the foundation you won’t actually know why it’s important, or how it relates to what you are doing. Additionally, in most job postings I found, there was very little mention of the above skills. Just save learning these until you are on the job.***
+```
 
-REMEMBER: your goal is to get employed in the most efficient manner.
+**REMEMBER:** your goal is to get employed in the most efficient manner.
 
-Build a small project using firebase as the database.
-Read The Two Pillars of JavaScript Part 1 and The Two Pillars of JavaScript Part 2.
+* Build a small project using [firebase](https://firebase.google.com/docs/web/setup) as the database.
+* Read [The Two Pillars of JavaScript Part 1](https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3) and [The Two Pillars of JavaScript Part 2](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4).

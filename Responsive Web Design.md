@@ -5,32 +5,32 @@
 HTML, or HyperText Markup Language, is a markup language used to describe the structure of a web page. It uses a special syntax or notation to organize and give information about the page to the browser. Elements usually have opening and closing tags that surround and give meaning to content. For example, there are different tag options to place around text to show whether it is a heading, a paragraph, or a list.
 
 * Say Hello to HTML Elements
-* PassedHeadline with the h2 Element
-* PassedInform with the Paragraph Element
-* PassedFill in the Blank with Placeholder Text
-* PassedUncomment HTML
-* PassedComment out HTML
-* PassedDelete HTML Elements
-* PassedIntroduction to HTML5 Elements
-* PassedAdd Images to Your Website
-* PassedLink to External Pages with Anchor Elements
-* PassedLink to Internal Sections of a Page with Anchor Elements
-* PassedNest an Anchor Element within a Paragraph
-* PassedMake Dead Links Using the Hash Symbol
-* PassedTurn an Image into a Link
-* PassedCreate a Bulleted Unordered List
-* PassedCreate an Ordered List
-* PassedCreate a Text Field
-* PassedAdd Placeholder Text to a Text Field
-* PassedCreate a Form Element
-* PassedAdd a Submit Button to a Form
-* PassedUse HTML5 to Require a Field
-* PassedCreate a Set of Radio Buttons
-* PassedCreate a Set of Checkboxes
-* PassedCheck Radio Buttons and Checkboxes by Default
-* PassedNest Many Elements within a Single div Element
-* PassedDeclare the Doctype of an HTML Document
-* PassedDefine the Head and Body of an HTML Document
+* Headline with the h2 Element
+* Inform with the Paragraph Element
+* Fill in the Blank with Placeholder Text
+* Uncomment HTML
+* Comment out HTML
+* Delete HTML Elements
+* Introduction to HTML5 Elements
+* Add Images to Your Website
+* Link to External Pages with Anchor Elements
+* Link to Internal Sections of a Page with Anchor Elements
+* Nest an Anchor Element within a Paragraph
+* Make Dead Links Using the Hash Symbol
+* Turn an Image into a Link
+* Create a Bulleted Unordered List
+* Create an Ordered List
+* Create a Text Field
+* Add Placeholder Text to a Text Field
+* Create a Form Element
+* Add a Submit Button to a Form
+* Use HTML5 to Require a Field
+* Create a Set of Radio Buttons
+* Create a Set of Checkboxes
+* Check Radio Buttons and Checkboxes by Default
+* Nest Many Elements within a Single div Element
+* Declare the Doctype of an HTML Document
+* Define the Head and Body of an HTML Document
 
 ```html
 <!DOCTYPE html>
@@ -79,48 +79,48 @@ Cascading Style Sheets (CSS) tell the browser how to display the text and other 
 There are three main ways to apply CSS styling. You can apply inline styles directly to HTML elements with the style attribute. Alternatively, you can place CSS rules within style tags in an HTML document. Finally, you can write CSS rules in an external style sheet, then reference that file in the HTML document.
 
 * Change the Color of Text
-* PassedUse CSS Selectors to Style Elements
-* PassedUse a CSS Class to Style an Element
-* PassedStyle Multiple Elements with a CSS Class
-* PassedChange the Font Size of an Element
-* PassedSet the Font Family of an Element
-* PassedImport a Google Font
-* PassedSpecify How Fonts Should Degrade
-* PassedSize Your Images
-* PassedAdd Borders Around Your Elements
-* PassedAdd Rounded Corners with border-radius
-* PassedMake Circular Images with a border-radius
-* PassedGive a Background Color to a div Element
-* PassedSet the id of an Element
-* PassedUse an id Attribute to Style an Element
-* PassedAdjust the Padding of an Element
-* PassedAdjust the Margin of an Element
-* PassedAdd a Negative Margin to an Element
-* PassedAdd Different Padding to Each Side of an Element
-* PassedAdd Different Margins to Each Side of an Element
-* PassedUse Clockwise Notation to Specify the Padding of an Element
-* PassedUse Clockwise Notation to Specify the Margin of an Element
-* PassedUse Attribute Selectors to Style Elements
-* PassedUnderstand Absolute versus Relative Units
-* PassedStyle the HTML Body Element
-* PassedInherit Styles from the Body Element
-* PassedPrioritize One Style Over Another
-* PassedOverride Styles in Subsequent CSS
-* PassedOverride Class Declarations by Styling ID Attributes
-* PassedOverride Class Declarations with Inline Styles
-* PassedOverride All Other Styles by using Important
-* PassedUse Hex Code for Specific Colors
-* PassedUse Hex Code to Mix Colors
-* PassedUse Abbreviated Hex Code
-* PassedUse RGB values to Color Elements
-* PassedUse RGB to Mix Colors
-* PassedUse CSS Variables to change several elements at once
-* PassedCreate a custom CSS Variable
-* PassedUse a custom CSS Variable
-* PassedAttach a Fallback value to a CSS Variable
-* PassedCascading CSS variables
-* PassedChange a variable for a specific area
-* PassedUse a media query to change a variable
+* Use CSS Selectors to Style Elements
+* Use a CSS Class to Style an Element
+* Style Multiple Elements with a CSS Class
+* Change the Font Size of an Element
+* Set the Font Family of an Element
+* Import a Google Font
+* Specify How Fonts Should Degrade
+* Size Your Images
+* Add Borders Around Your Elements
+* Add Rounded Corners with border-radius
+* Make Circular Images with a border-radius
+* Give a Background Color to a div Element
+* Set the id of an Element
+* Use an id Attribute to Style an Element
+* Adjust the Padding of an Element
+* Adjust the Margin of an Element
+* Add a Negative Margin to an Element
+* Add Different Padding to Each Side of an Element
+* Add Different Margins to Each Side of an Element
+* Use Clockwise Notation to Specify the Padding of an Element
+* Use Clockwise Notation to Specify the Margin of an Element
+* Use Attribute Selectors to Style Elements
+* Understand Absolute versus Relative Units
+* Style the HTML Body Element
+* Inherit Styles from the Body Element
+* Prioritize One Style Over Another
+* Override Styles in Subsequent CSS
+* Override Class Declarations by Styling ID Attributes
+* Override Class Declarations with Inline Styles
+* Override All Other Styles by using Important
+* Use Hex Code for Specific Colors
+* Use Hex Code to Mix Colors
+* Use Abbreviated Hex Code
+* Use RGB values to Color Elements
+* Use RGB to Mix Colors
+* Use CSS Variables to change several elements at once
+* Create a custom CSS Variable
+* Use a custom CSS Variable
+* Attach a Fallback value to a CSS Variable
+* Cascading CSS variables
+* Change a variable for a specific area
+* Use a media query to change a variable
 
 ```html
 
@@ -363,57 +363,57 @@ There are three main ways to apply CSS styling. You can apply inline styles dire
 Visual Design in web development is a broad topic. It combines typography, color theory, graphics, animation, and page layout to help deliver a site's message. 
 
 * Create Visual Balance Using the text-align Property
-* PassedAdjust the Width of an Element Using the width Property
-* PassedAdjust the Height of an Element Using the height Property
-* PassedUse the strong Tag to Make Text Bold
-* PassedUse the u Tag to Underline Text
-* PassedUse the em Tag to Italicize Text
-* PassedUse the del Tag to Strikethrough Text
-* PassedCreate a Horizontal Line Using the hr Element
-* PassedAdjust the background-color Property of Text
-* PassedAdjust the Size of a Header Versus a Paragraph Tag
-* PassedAdd a box-shadow to a Card-like Element
-* PassedDecrease the Opacity of an Element
-* PassedUse the text-transform Property to Make Text Uppercase
-* PassedSet the font-size for Multiple Heading Elements
-* PassedSet the font-weight for Multiple Heading Elements
-* PassedSet the font-size of Paragraph Text
-* PassedSet the line-height of Paragraphs
-* PassedAdjust the Hover State of an Anchor Tag
-* PassedChange an Element's Relative Position
-* PassedMove a Relatively Positioned Element with CSS Offsets
-* PassedLock an Element to its Parent with Absolute Positioning
-* PassedLock an Element to the Browser Window with Fixed Positioning
-* PassedPush Elements Left or Right with the float Property
-* PassedChange the Position of Overlapping Elements with the z-index * Property
-* PassedCenter an Element Horizontally Using the margin Property
-* PassedLearn about Complementary Colors
-* PassedLearn about Tertiary Colors
-* PassedAdjust the Color of Various Elements to Complementary Colors
-* PassedAdjust the Hue of a Color
-* PassedAdjust the Tone of a Color
-* PassedCreate a Gradual CSS Linear Gradient
-* PassedUse a CSS Linear Gradient to Create a Striped Element
-* PassedCreate Texture by Adding a Subtle Pattern as a Background * Image
-* PassedUse the CSS Transform scale Property to Change the Size of * an Element
-* PassedUse the CSS Transform scale Property to Scale an Element on * Hover
-* PassedUse the CSS Transform Property skewX to Skew an Element * Along the X-Axis
-* PassedUse the CSS Transform Property skewY to Skew an Element * Along the Y-Axis
-* PassedCreate a Graphic Using CSS
-* PassedCreate a More Complex Shape Using CSS and HTML
-* PassedLearn How the CSS @keyframes and animation Properties Work
-* PassedUse CSS Animation to Change the Hover State of a Button
-* PassedModify Fill Mode of an Animation
-* PassedCreate Movement Using CSS Animation
-* PassedCreate Visual Direction by Fading an Element from Left to * Right
-* PassedAnimate Elements Continually Using an Infinite Animation * Count
-* PassedMake a CSS Heartbeat using an Infinite Animation Count
-* PassedAnimate Elements at Variable Rates
-* PassedAnimate Multiple Elements at Variable Rates
-* PassedChange Animation Timing with Keywords
-* PassedLearn How Bezier Curves Work
-* PassedUse a Bezier Curve to Move a Graphic
-* PassedMake Motion More Natural Using a Bezier Curve
+* Adjust the Width of an Element Using the width Property
+* Adjust the Height of an Element Using the height Property
+* Use the strong Tag to Make Text Bold
+* Use the u Tag to Underline Text
+* Use the em Tag to Italicize Text
+* Use the del Tag to Strikethrough Text
+* Create a Horizontal Line Using the hr Element
+* Adjust the background-color Property of Text
+* Adjust the Size of a Header Versus a Paragraph Tag
+* Add a box-shadow to a Card-like Element
+* Decrease the Opacity of an Element
+* Use the text-transform Property to Make Text Uppercase
+* Set the font-size for Multiple Heading Elements
+* Set the font-weight for Multiple Heading Elements
+* Set the font-size of Paragraph Text
+* Set the line-height of Paragraphs
+* Adjust the Hover State of an Anchor Tag
+* Change an Element's Relative Position
+* Move a Relatively Positioned Element with CSS Offsets
+* Lock an Element to its Parent with Absolute Positioning
+* Lock an Element to the Browser Window with Fixed Positioning
+* Push Elements Left or Right with the float Property
+* Change the Position of Overlapping Elements with the z-index * Property
+* Center an Element Horizontally Using the margin Property
+* Learn about Complementary Colors
+* Learn about Tertiary Colors
+* Adjust the Color of Various Elements to Complementary Colors
+* Adjust the Hue of a Color
+* Adjust the Tone of a Color
+* Create a Gradual CSS Linear Gradient
+* Use a CSS Linear Gradient to Create a Striped Element
+* Create Texture by Adding a Subtle Pattern as a Background * Image
+* Use the CSS Transform scale Property to Change the Size of * an Element
+* Use the CSS Transform scale Property to Scale an Element on * Hover
+* Use the CSS Transform Property skewX to Skew an Element * Along the X-Axis
+* Use the CSS Transform Property skewY to Skew an Element * Along the Y-Axis
+* Create a Graphic Using CSS
+* Create a More Complex Shape Using CSS and HTML
+* Learn How the CSS @keyframes and animation Properties Work
+* Use CSS Animation to Change the Hover State of a Button
+* Modify Fill Mode of an Animation
+* Create Movement Using CSS Animation
+* Create Visual Direction by Fading an Element from Left to * Right
+* Animate Elements Continually Using an Infinite Animation * Count
+* Make a CSS Heartbeat using an Infinite Animation Count
+* Animate Elements at Variable Rates
+* Animate Multiple Elements at Variable Rates
+* Change Animation Timing with Keywords
+* Learn How Bezier Curves Work
+* Use a Bezier Curve to Move a Graphic
+* Make Motion More Natural Using a Bezier Curve
 
 ```html
 <!-- Make a CSS Heartbeat using an Infinite Animation Count -->
@@ -500,27 +500,27 @@ Visual Design in web development is a broad topic. It combines typography, color
 3. create an easily-navigated page that's keyboard-friendly
 
 * Add a Text Alternative to Images for Visually Impaired Accessibility
-* PassedKnow When Alt Text Should be Left Blank
-* PassedUse Headings to Show Hierarchical Relationships of Content
-* PassedJump Straight to the Content Using the main Element
-* PassedWrap Content in the article Element
-* PassedMake Screen Reader Navigation Easier with the header Landmark
-* PassedMake Screen Reader Navigation Easier with the nav Landmark
-* PassedMake Screen Reader Navigation Easier with the footer Landmark
-* PassedImprove Accessibility of Audio Content with the audio Element
-* PassedImprove Chart Accessibility with the figure Element
-* PassedImprove Form Field Accessibility with the label Element
-* PassedWrap Radio Buttons in a fieldset Element for Better Accessibility
-* PassedAdd an Accessible Date Picker
-* PassedStandardize Times with the HTML5 datetime Attribute
-* PassedMake Elements Only Visible to a Screen Reader by Using Custom CSS
-* PassedImprove Readability with High Contrast Text
-* PassedAvoid Colorblindness Issues by Using Sufficient Contrast
-* PassedAvoid Colorblindness Issues by Carefully Choosing Colors that Convey Information
-* PassedGive Links Meaning by Using Descriptive Link Text
-* PassedMake Links Navigatable with HTML Access Keys
-* PassedUse tabindex to Add Keyboard Focus to an Element
-* PassedUse tabindex to Specify the Order of Keyboard Focus for Several Elements
+* Know When Alt Text Should be Left Blank
+* Use Headings to Show Hierarchical Relationships of Content
+* Jump Straight to the Content Using the main Element
+* Wrap Content in the article Element
+* Make Screen Reader Navigation Easier with the header Landmark
+* Make Screen Reader Navigation Easier with the nav Landmark
+* Make Screen Reader Navigation Easier with the footer Landmark
+* Improve Accessibility of Audio Content with the audio Element
+* Improve Chart Accessibility with the figure Element
+* Improve Form Field Accessibility with the label Element
+* Wrap Radio Buttons in a fieldset Element for Better Accessibility
+* Add an Accessible Date Picker
+* Standardize Times with the HTML5 datetime Attribute
+* Make Elements Only Visible to a Screen Reader by Using Custom CSS
+* Improve Readability with High Contrast Text
+* Avoid Colorblindness Issues by Using Sufficient Contrast
+* Avoid Colorblindness Issues by Carefully Choosing Colors that Convey Information
+* Give Links Meaning by Using Descriptive Link Text
+* Make Links Navigatable with HTML Access Keys
+* Use tabindex to Add Keyboard Focus to an Element
+* Use tabindex to Specify the Order of Keyboard Focus for Several Elements
 
 ## Introduction to the Responsive Web Design Challenges
 
@@ -549,7 +549,7 @@ CSS3 introduced Flexible Boxes, or flexbox, to create page layouts for a dynamic
 * Use the flex-direction Property to Make a Row
 * Apply the flex-direction Property to Create Rows in the Tweet Embed
 * Use the flex-direction Property to Make a Column
-* Apply the flex-direction Property to Create a Column in the Tweet * Embed
+* Apply the flex-direction Property to Create a Column in the Tweet Embed
 * Align Elements Using the justify-content Property
 * Use the justify-content Property in the Tweet Embed
 * Align Elements Using the align-items Property
