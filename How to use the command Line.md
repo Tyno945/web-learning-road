@@ -8,6 +8,7 @@ Before you go to bed, drill just the cards you got wrong for about 5 minutes, th
 
 Terminal Command
 
+```
 pwd(print working directory)
 hostname(my computer's network name)
 mkdir(make directory)         mkdir -p(Unix)
@@ -32,7 +33,7 @@ echo(print some arguments)
 export(export/set a new environment variable)
 exit(exit the shell)
 sudo(管理员权限)
-
+```
 Linux Bash Shell Cheat Sheet
 
 Windows PowerShell Manual
