@@ -32,10 +32,18 @@ HTML, or HyperText Markup Language, is a markup language used to describe the st
 * Declare the Doctype of an HTML Document
 * Define the Head and Body of an HTML Document
 
+### 重点学习
+
+1. [HTML5新元素](http://www.runoob.com/html/html5-new-element.html)
+2. 记忆各类元素及其常见属性。[速查手册](http://www.runoob.com/html/html-quicklist.html)
+
+
+
 ```html
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>CatPhoto</title>
     </head>
     <body>
@@ -121,6 +129,19 @@ There are three main ways to apply CSS styling. You can apply inline styles dire
 * Cascading CSS variables
 * Change a variable for a specific area
 * Use a media query to change a variable
+
+
+### 重点学习
+1. [CSS选择器](http://www.runoob.com/cssref/css-selectors.html)
+2. 记忆常用[CSS属性](http://www.runoob.com/cssref/css-reference.html)
+3. 导入字体
+4. 绝对单位和相对单位
+5. 理解样式层叠
+6. 掌握CSS颜色表示
+7. 重点理解CSS变量
+8. 掌握[媒体查询](http://www.runoob.com/css3/css3-mediaqueries.html)
+
+
 
 ```html
 
