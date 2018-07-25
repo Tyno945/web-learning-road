@@ -2,7 +2,7 @@
 
 ## Introduction to the Bootstrap Challenges
 
-[解决FireBase login验证失败问题](https://www.colabug.com/2663627.html)
+[解决FireBase login验证失败问题](https://www.jianshu.com/p/ad160afee2d8)
 
 [github issue](https://github.com/firebase/firebase-tools/issues/155)
 
