@@ -436,6 +436,15 @@ Visual Design in web development is a broad topic. It combines typography, color
 * Use a Bezier Curve to Move a Graphic
 * Make Motion More Natural Using a Bezier Curve
 
+### 重点学习
+1. 了解视觉设计相关知识，如原型，字体，排版布局，色彩，动画等
+2. 掌握`text-align`，`background`，`box-shadow`
+3. 掌握`position`，`float`
+4. 掌握色轮,HSL
+5. 掌握渐变`linear-gradient()`，`transform`
+6. 理解CSS图画
+7. 掌握CSS动画,理解Bezier Curves
+
 ```html
 <!-- Make a CSS Heartbeat using an Infinite Animation Count -->
 
