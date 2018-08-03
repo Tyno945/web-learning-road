@@ -30,3 +30,10 @@ The following templates are available:
     在国内直接安装会很慢，先手动安装webpack包。
     $ cnpm install webpack --save-dev
     $ vue init webpack my-project
+
+4. 了解Vue项目的目录结构
+
+5. 学习并掌握Vue
+
+* [参考菜鸟Vue.js教程](http://www.runoob.com/vue2/vue-tutorial.html)
+* [官方文档](https://vuejs.org/)
