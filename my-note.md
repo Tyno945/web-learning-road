@@ -37,3 +37,9 @@ The following templates are available:
 
 * [参考菜鸟Vue.js教程](http://www.runoob.com/vue2/vue-tutorial.html)
 * [官方文档](https://vuejs.org/)
+
+6. 学习并掌握Nuxt.js
+
+* [https://nuxtjs.org](https://nuxtjs.org)
+
+`vue init nuxt/starter <project-name>`
