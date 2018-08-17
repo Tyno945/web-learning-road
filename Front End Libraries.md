@@ -2,6 +2,22 @@
 
 ## Introduction to the Bootstrap Challenges
 
+## Introduction to the Sass Challenges
+
+Sass, or "Syntactically Awesome StyleSheets", is a language extension of CSS. 
+
+Sass can extend the CSS language because it is a preprocessor. 
+
+* Store Data with Sass Variables
+* Nest CSS with Sass
+* Create Reusable CSS with Mixins
+* Use @if and @else to Add Logic To Your Styles
+* Use @for to Create a Sass Loop
+* Use @each to Map Over Items in a List
+* Apply a Style Until a Condition is Met with @while
+* Split Your Styles into Smaller Chunks with Partials
+* Extend One Set of CSS Styles to Another Element
+
 [Google FireBase的简单介绍和使用](https://www.jianshu.com/p/eeb760c63a53)
 
 [解决FireBase login验证失败问题](https://www.jianshu.com/p/ad160afee2d8)
