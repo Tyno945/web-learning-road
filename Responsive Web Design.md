@@ -406,7 +406,7 @@ Visual Design in web development is a broad topic. It combines typography, color
 * Lock an Element to its Parent with Absolute Positioning
 * Lock an Element to the Browser Window with Fixed Positioning
 * Push Elements Left or Right with the float Property
-* Change the Position of Overlapping Elements with the z-index * Property
+* Change the Position of Overlapping Elements with the z-index  Property
 * Center an Element Horizontally Using the margin Property
 * Learn about Complementary Colors
 * Learn about Tertiary Colors
@@ -415,19 +415,19 @@ Visual Design in web development is a broad topic. It combines typography, color
 * Adjust the Tone of a Color
 * Create a Gradual CSS Linear Gradient
 * Use a CSS Linear Gradient to Create a Striped Element
-* Create Texture by Adding a Subtle Pattern as a Background * Image
-* Use the CSS Transform scale Property to Change the Size of * an Element
-* Use the CSS Transform scale Property to Scale an Element on * Hover
-* Use the CSS Transform Property skewX to Skew an Element * Along the X-Axis
-* Use the CSS Transform Property skewY to Skew an Element * Along the Y-Axis
+* Create Texture by Adding a Subtle Pattern as a Background Image
+* Use the CSS Transform scale Property to Change the Size of an Element
+* Use the CSS Transform scale Property to Scale an Element on Hover
+* Use the CSS Transform Property skewX to Skew an Element Along the X-Axis
+* Use the CSS Transform Property skewY to Skew an Element Along the Y-Axis
 * Create a Graphic Using CSS
 * Create a More Complex Shape Using CSS and HTML
 * Learn How the CSS @keyframes and animation Properties Work
 * Use CSS Animation to Change the Hover State of a Button
 * Modify Fill Mode of an Animation
 * Create Movement Using CSS Animation
-* Create Visual Direction by Fading an Element from Left to * Right
-* Animate Elements Continually Using an Infinite Animation * Count
+* Create Visual Direction by Fading an Element from Left to Right
+* Animate Elements Continually Using an Infinite Animation Count
 * Make a CSS Heartbeat using an Infinite Animation Count
 * Animate Elements at Variable Rates
 * Animate Multiple Elements at Variable Rates
