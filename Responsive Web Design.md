@@ -32,10 +32,18 @@ HTML, or HyperText Markup Language, is a markup language used to describe the st
 * Declare the Doctype of an HTML Document
 * Define the Head and Body of an HTML Document
 
+### 重点学习
+
+1. [HTML5新元素](http://www.runoob.com/html/html5-new-element.html)
+2. 记忆各类元素及其常见属性。[速查手册](http://www.runoob.com/html/html-quicklist.html)
+
+
+
 ```html
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>CatPhoto</title>
     </head>
     <body>
@@ -121,6 +129,19 @@ There are three main ways to apply CSS styling. You can apply inline styles dire
 * Cascading CSS variables
 * Change a variable for a specific area
 * Use a media query to change a variable
+
+
+### 重点学习
+1. [CSS选择器](http://www.runoob.com/cssref/css-selectors.html)
+2. 记忆常用[CSS属性](http://www.runoob.com/cssref/css-reference.html)
+3. 导入字体
+4. 绝对单位和相对单位
+5. 理解样式层叠
+6. 掌握CSS颜色表示
+7. 重点理解CSS变量
+8. 掌握[媒体查询](http://www.runoob.com/css3/css3-mediaqueries.html)
+
+
 
 ```html
 
@@ -385,7 +406,7 @@ Visual Design in web development is a broad topic. It combines typography, color
 * Lock an Element to its Parent with Absolute Positioning
 * Lock an Element to the Browser Window with Fixed Positioning
 * Push Elements Left or Right with the float Property
-* Change the Position of Overlapping Elements with the z-index * Property
+* Change the Position of Overlapping Elements with the z-index  Property
 * Center an Element Horizontally Using the margin Property
 * Learn about Complementary Colors
 * Learn about Tertiary Colors
@@ -394,19 +415,19 @@ Visual Design in web development is a broad topic. It combines typography, color
 * Adjust the Tone of a Color
 * Create a Gradual CSS Linear Gradient
 * Use a CSS Linear Gradient to Create a Striped Element
-* Create Texture by Adding a Subtle Pattern as a Background * Image
-* Use the CSS Transform scale Property to Change the Size of * an Element
-* Use the CSS Transform scale Property to Scale an Element on * Hover
-* Use the CSS Transform Property skewX to Skew an Element * Along the X-Axis
-* Use the CSS Transform Property skewY to Skew an Element * Along the Y-Axis
+* Create Texture by Adding a Subtle Pattern as a Background Image
+* Use the CSS Transform scale Property to Change the Size of an Element
+* Use the CSS Transform scale Property to Scale an Element on Hover
+* Use the CSS Transform Property skewX to Skew an Element Along the X-Axis
+* Use the CSS Transform Property skewY to Skew an Element Along the Y-Axis
 * Create a Graphic Using CSS
 * Create a More Complex Shape Using CSS and HTML
 * Learn How the CSS @keyframes and animation Properties Work
 * Use CSS Animation to Change the Hover State of a Button
 * Modify Fill Mode of an Animation
 * Create Movement Using CSS Animation
-* Create Visual Direction by Fading an Element from Left to * Right
-* Animate Elements Continually Using an Infinite Animation * Count
+* Create Visual Direction by Fading an Element from Left to Right
+* Animate Elements Continually Using an Infinite Animation Count
 * Make a CSS Heartbeat using an Infinite Animation Count
 * Animate Elements at Variable Rates
 * Animate Multiple Elements at Variable Rates
@@ -414,6 +435,15 @@ Visual Design in web development is a broad topic. It combines typography, color
 * Learn How Bezier Curves Work
 * Use a Bezier Curve to Move a Graphic
 * Make Motion More Natural Using a Bezier Curve
+
+### 重点学习
+1. 了解视觉设计相关知识，如原型，字体，排版布局，色彩，动画等
+2. 掌握`text-align`，`background`，`box-shadow`
+3. 掌握`position`，`float`
+4. 掌握色轮,HSL
+5. 掌握渐变`linear-gradient()`，`transform`
+6. 理解CSS图画
+7. 掌握CSS动画,理解Bezier Curves
 
 ```html
 <!-- Make a CSS Heartbeat using an Infinite Animation Count -->
@@ -561,6 +591,10 @@ CSS3 introduced Flexible Boxes, or flexbox, to create page layouts for a dynamic
 * Use the flex Shorthand Property
 * Use the order Property to Rearrange Items
 * Use the align-self Property
+
+### 重点学习
+
+1. 
 
 ## Introduction to the CSS Grid Challenges
 
