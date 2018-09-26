@@ -594,8 +594,96 @@ CSS3 introduced Flexible Boxes, or flexbox, to create page layouts for a dynamic
 
 ### 重点学习
 
-1. 掌握`display: flex`，默认`flex-direction: row`
+1. 掌握`display: flex`，默认`flex-direction: row`，`flex-direction: column`
 2. 掌握`justify-content`属性，值有`center,flex-start,flex-end,space-between,space-around`
+3. 掌握`align-items`属性，值有`center,flex-start,flex-end,stretch,baseline`
+4. 掌握`flex-wrap`属性，值有`nowrap,wrap,wrap-reverse`
+5. 掌握`flex-shrink`和`flex-grow`属性，值是数字。掌握`flex-basis`属性，值是大小（px, em, %）。
+
+```html
+<style>
+  #box-container {
+    display: flex;
+    height: 500px;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 200px;
+    flex-shrink: 1;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 100%;
+    height: 200px;
+    flex-shrink: 2;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
+```
+
+6. 掌握`flex`属性，默认是`flex: 0 1 auto;`,代表`flex-grow: 0;, flex-shrink: 1;,flex-basis: auto;`
+
+```html
+<style>
+  #box-container {
+    display: flex;
+    height: 500px;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    flex: 2 2 150px;
+    height: 200px;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    flex: 1 1 150px;
+    height: 200px;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
+```
+
+7. 掌握`order`排序属性，值是数字。
+
+8. 掌握`align-self`对齐属性，值同`align-items`属性。
+
+```html
+<style>
+  #box-container {
+    display: flex;
+    height: 500px;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    align-self: center;
+    height: 200px;
+    width: 200px;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    align-self: flex-end;
+    height: 200px;
+    width: 200px;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
+```
 
 ## Introduction to the CSS Grid Challenges
 
