@@ -594,7 +594,8 @@ CSS3 introduced Flexible Boxes, or flexbox, to create page layouts for a dynamic
 
 ### 重点学习
 
-1. 
+1. 掌握`display: flex`，默认`flex-direction: row`
+2. 掌握`justify-content`属性，值有`center,flex-start,flex-end,space-between,space-around`
 
 ## Introduction to the CSS Grid Challenges
 
