@@ -2,7 +2,7 @@
 
 ## What is Hexo?
 
-Hexo is a fast, simple and powerful blog framework. You write posts in Markdown (or other languages) and Hexo generates static files with a beautiful theme in seconds.
+[Hexo](https://hexo.io/) is a fast, simple and powerful blog framework. You write posts in Markdown (or other languages) and Hexo generates static files with a beautiful theme in seconds.
 
 ## Installation and initialization
 
@@ -52,7 +52,9 @@ To create a new post, you can run the following command:
 
     $ hexo new page <title>
 
+### Front-matter
 
+Front-matter is a block of YAML or JSON at the beginning of the file that is used to configure settings for your writings. 
 
 ## 参考
 
