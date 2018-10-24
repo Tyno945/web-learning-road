@@ -139,6 +139,54 @@ To start using your theme, modify the `theme` setting in your site’s `_config.
 
 [Templates](https://hexo.io/docs/templates) define the presentation of your website by describing what each page should look like.
 
+### Variables
+
+#### Global Variables
+
+Variable | Description | Type
+--- | --- | ---
+`site` | Sitewide information. | `object`; see [Site Variables]
+`page` | Page specific information and custom variables set in front-matter. | `object`; see [Page Variables]
+`config` | Site configuration. | `object` (your site's _config file)
+`theme` | Theme configuration. Inherits from site configuration. | `object` (your theme's _config file)
+`_` (single underscore) | Lodash library | see [Lodash](https://lodash.com/  "Lodash" target="_blank") documentation
+`path` | Path of current page | `string`
+`url` | Full URL of current page | `string`
+`env` | Environment variables | ???
+
+### Helpers
+
+Helpers are used in templates to help you insert snippets quickly.
+
+**Examples:**
+
+``` js
+<%- css('style.css') %>
+// <link rel="stylesheet" href="/style.css" type="text/css">
+
+<%- css(['style.css', 'screen.css']) %>
+// <link rel="stylesheet" href="/style.css" type="text/css">
+// <link rel="stylesheet" href="/screen.css" type="text/css">
+```
+
+### Internationalization (i18n)
+
+You can use internationalization to present your site in different languages. The default language is set by modifying the `language` setting in `_config.yml`.
+
+Language files can be YAML or JSON files. You should put them into the `languages` folder in the theme. 
+
+``` yaml
+language: zh-tw
+
+language:
+- zh-tw
+- en
+```
+
+### Plugins
+
+Hexo has a powerful plugin system, which makes it easy to extend functions without modifying the source code of the core module. 
+
 ## 参考
 
 [使用Hexo+Github一步步搭建属于自己的博客](https://www.cnblogs.com/fengxiongZz/p/7707219.html)
