@@ -187,8 +187,50 @@ language:
 
 Hexo has a powerful plugin system, which makes it easy to extend functions without modifying the source code of the core module. 
 
+## 高级技巧
+
+### 部署发布到多个服务器
+
+```yaml
+deploy:
+  type: git
+  repository: 
+    github: git@github.com:Tyno945/Tyno945.github.io.git
+    coding: git@git.dev.tencent.com:Felix945/Felix945.git
+  branch: master
+```
+配置好后一键部署：
+
+    $ hexo clean && hexo g -d
+
+部署成功的前提是已经配置好github和coding的SSH，并通过命令`$ ssh -T git@git.dev.tencent.com`建立好首次通信。
+
+### 永久链接更改
+
+文章的front matter设置一个新的变量english_title，修改博文的URL显示为english_title，`permalink: :year/:month/:day/:english_title/`，便于修改中文标题
+
+```yaml
+---
+title: Hexo搭建博客系列：（三）使用MarkDown和七牛云写博文
+english_title: Hexo3    #注意连接符是下划线
+date: 2017-06-13 13:26:55
+tags: [Hexo系列, MarkDown+七牛云, 有道云笔记] 
+categories: Hexo系列
+---
+```
+
 ## 参考
+
+[从0到1搭建一个属于自己的博客网站(总纲)](https://www.jianshu.com/p/166339826a7a)
+
+[Hexo+GitHub搭建博客网站](https://blog.csdn.net/wsmrzx/article/details/81477123)
 
 [使用Hexo+Github一步步搭建属于自己的博客](https://www.cnblogs.com/fengxiongZz/p/7707219.html)
 
 [使用Travis CI自动部署Hexo到GitHub](https://dmego.me/2017/10/13/deylpoy-hexo-with-TravisCI.html)
+
+[Hexo主题学习](http://theme-next.iissnan.com/)
+
+[hexo博客同时部署至github和Coding](https://blog.csdn.net/u011303443/article/details/51509351)
+
+[hexo添加文章更新时间](https://www.jianshu.com/p/ae3a0666e998)
