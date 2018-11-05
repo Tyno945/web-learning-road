@@ -154,7 +154,7 @@ In computer science, data is anything that is meaningful to the computer. JavaSc
 
 Write variable names in JavaScript in camelCase.
 
-理解浮点数在计算机的表示
+* 理解浮点数在计算机的表示
 
 ```
 十进制0.1计算机表示
@@ -163,13 +163,13 @@ Write variable names in JavaScript in camelCase.
  => 计算机存储为：0 01111111011 10011001100110011…11001  
  => 因为尾数最多52位，所以实际存储的值为0.00011001100110011001100110011001100110011001100110011001  
 ```
-掌握数值运算
+* 掌握数值运算
 
-掌握字符串转义字符
+* 掌握字符串转义字符
 
-掌握字符串操作
+* 掌握字符串操作
 
-掌握数组操作
+* 掌握数组操作
 
 3. 函数
 
