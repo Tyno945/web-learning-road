@@ -173,6 +173,20 @@ Write variable names in JavaScript in camelCase.
 
 3. 函数
 
+函数定义,函数参数，函数作用域，函数返回值
+
+4. 理解队列
+
+5. 掌握控制结构
+
+* 判断
+
+```
+if (condition is true) {
+  statement is executed
+}
+```
+
 ## ES6
 
 ## Regular Expressions
