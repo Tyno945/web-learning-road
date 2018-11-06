@@ -142,3 +142,5 @@ GitHub.com使用自己的Markdown语法版本[GFM](https://help.github.com/artic
 [献给写作者的 Markdown 新手指南](https://www.jianshu.com/p/q81RER)
 
 [Markdown写作浅谈](https://www.jianshu.com/p/PpDNMG)
+
+[Markdown语法参考](https://www.zybuluo.com/techird/note/46064)

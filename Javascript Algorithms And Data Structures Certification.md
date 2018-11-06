@@ -179,12 +179,42 @@ Write variable names in JavaScript in camelCase.
 
 5. 掌握控制结构
 
-* 判断
+* 判断，掌握比较运算和逻辑运算
 
 ```
 if (condition is true) {
   statement is executed
 }
+---------------------------
+
+if (condition1) {
+  statement1
+} else if (condition2) {
+  statement2
+} else if (condition3) {
+  statement3
+. . .
+} else {
+  statementN
+}
+---------------------------
+
+switch(num) {
+  case value1:
+    statement1;
+    break;
+  case value2:
+    statement2;
+    break;
+...
+  case valueN:
+    statementN;
+    break;
+}
+...
+  default:
+    defaultStatement;
+    break;
 ```
 
 ## ES6
