@@ -177,9 +177,7 @@ Write variable names in JavaScript in camelCase.
 
 4. 理解队列
 
-5. 掌握控制结构
-
-* 判断，掌握比较运算和逻辑运算
+5. 掌握判断，掌握比较运算和逻辑运算
 
 ```
 if (condition is true) {
@@ -217,7 +215,58 @@ switch(num) {
     break;
 ```
 
+6. 对象
+
+对象定义，对象属性的查改增删
+
 ## ES6
+
+ECMAScript is a standardized version of JavaScript with the goal of unifying the language's specifications and features. 
+
+The most recent standardized version is called ECMAScript 6 (ES6), released in 2015. This new version of the language adds some powerful features that will be covered in this section of challenges, including:
+
+
+* Arrow functions
+* Classes
+* Modules
+* Promises
+* Generators
+* let and const
+
+### 知识点
+
+* Explore Differences Between the var and let Keywords
+* Compare Scopes of the var and let Keywords
+* Declare a Read-Only Variable with the const Keyword
+* Mutate an Array Declared with const
+* Prevent Object Mutation
+* Use Arrow Functions to Write Concise Anonymous Functions
+* Write Arrow Functions with Parameters
+* Write Higher Order Arrow Functions
+* Set Default Parameters for Your Functions
+* Use the Rest Operator with Function Parameters
+* Use the Spread Operator to Evaluate Arrays In-Place
+* Use Destructuring Assignment to Assign Variables from Objects
+* Use Destructuring Assignment to Assign Variables from Nested Objects
+* Use Destructuring Assignment to Assign Variables from Arrays
+* Use Destructuring Assignment with the Rest Operator to Reassign Array Elements
+* Use Destructuring Assignment to Pass an Object as a Function's Parameters
+* Create Strings using Template Literals
+* Write Concise Object Literal Declarations Using Simple Fields
+* Write Concise Declarative Functions with ES6
+* Use class Syntax to Define a Constructor Function
+* Use getters and setters to Control Access to an Object
+* Understand the Differences Between import and require
+* Use export to Reuse a Code Block
+* Use * to Import Everything from a File
+* Create an Export Fallback with export default
+* Import a Default Export
+
+### 重点学习
+
+1. 用let和const声明变量
+
+块级作用域，常量声明用大写字母，下划线分隔
 
 ## Regular Expressions
 ## Debugging
