@@ -266,7 +266,90 @@ The most recent standardized version is called ECMAScript 6 (ES6), released in 2
 
 1. 用let和const声明变量
 
-块级作用域，常量声明用大写字母，下划线分隔
+* 块级作用域
+* 常量声明用大写字母，下划线分隔
+* 利用Object.freeze函数使对象不可修改
+
+2. 掌握箭头函数
+
+* 高阶函数map(), filter(), and reduce()与箭头函数的配合
+
+3. 函数默认参数，`...`rest运算符
+
+```javascript
+function howMany(...args) {
+  return "You have passed " + args.length + " arguments.";
+}
+console.log(howMany(0, 1, 2)); // You have passed 3 arguments
+
+/* 直接使用Math.max(arr)会返回NaN */
+var arr = [6, 89, 3, 45];
+var maximus = Math.max.apply(null, arr); // returns 89
+
+const arr = [6, 89, 3, 45];
+const maximus = Math.max(...arr); // returns 89
+```
+4. 掌握解构赋值
+
+```javascript
+const [a, b, ...arr] = [1, 2, 3, 4, 5, 7];
+console.log(a, b); // 1, 2
+console.log(arr); // [3, 4, 5, 7]
+
+/* 函数参数是对象的解构赋值 */
+const stats = {
+  max: 56.78,
+  standard_deviation: 4.34,
+  median: 34.54,
+  mode: 23.87,
+  min: -0.75,
+  average: 35.85
+};
+const half = (function() {
+  "use strict"; // do not change this line
+
+  // change code below this line
+  return function half({max, min}) {
+    // use function argument destructuring
+    return (max + min) / 2.0;
+  };
+  // change code above this line
+
+})();
+console.log(stats); // should be object
+console.log(half(stats)); // should be 28.015
+```
+
+5. 掌握模板字符串
+
+6. 对象缩写
+
+```javascript
+const getMousePosition = (x, y) => ({
+  x: x,
+  y: y
+});
+
+const getMousePosition = (x, y) => ({ x, y });
+
+const person = {
+  name: "Taylor",
+  sayHello: function() {
+    return `Hello! My name is ${this.name}.`;
+  }
+};
+
+const person = {
+  name: "Taylor",
+  sayHello() {
+    return `Hello! My name is ${this.name}.`;
+  }
+};
+```
+
+7. 掌握`class`构造函数
+
+8. 掌握`getter` 和 `setter`
 
 ## Regular Expressions
 ## Debugging
