@@ -69,12 +69,12 @@ I’m heavily biased. I love React.js. As a matter of fact, I teach it to others
 
 * React → Do these in order: [one](https://www.youtube.com/watch?v=MhkGQAoc7bc&list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b), [two](https://egghead.io/courses/the-beginner-s-guide-to-reactjs), [three](https://egghead.io/courses/advanced-react-component-patterns). Then head on over to the official [documentation](https://reactjs.org/tutorial/tutorial.html) and read through everything. If you have the money, this is the best react [tutorial](https://tylermcginnis.com/courses/).
 * If you have the time and you want even more in depth tutorial on react [here it is](https://btholt.github.io/complete-intro-to-react/)
-* Optional: Learn Redux → Watch this course. Don’t let your head explode. Then read the documentation for it as well.
-* Build a sample React application using create-react-app. Create-react-app will blow you away. It will open up a new world for you.
-* Deploy your app on Heroku.
-* Deploy your app on GitHub pages.
-* Start following top 10 articles on Medium and read any article on coding that ever comes up. Sign up to these email lists to keep in touch with what is happening in the industry: Javascript and React.
-* Start building your online resume. There are people that give better advice than me on this. Check this and this out. I also wrote an article on this that you can check out, but this post is already getting too long and you’re starting to give me evil eyes.
+* Optional: Learn Redux → Watch [this](https://egghead.io/courses/getting-started-with-redux) course. Don’t let your head explode. Then read the [documentation](http://redux.js.org/docs/introduction/) for it as well.
+* Build a sample React application using [create-react-app](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md). Create-react-app will blow you away. It will open up a new world for you.
+* Deploy your app on [Heroku](https://devcenter.heroku.com/articles/git).
+* Deploy your app on [GitHub pages](https://pages.github.com/).
+* Start following [top 10 articles on Medium](https://medium.com/browse/top) and read any article on coding that ever comes up. Sign up to these email lists to keep in touch with what is happening in the industry: [Javascript](http://javascriptweekly.com/) and [React](https://react.statuscode.com/).
+* Start building your online resume. There are people that give better advice than me on this. Check [this](https://medium.freecodecamp.com/how-to-write-a-good-resume-in-2017-b8ea9dfdd3b9#.nifu8uw1m) and [this](https://medium.freecodecamp.com/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331#.4kjyb4763) out. I also wrote an article on this that you can [check out](https://medium.com/@andreineagoie/how-to-interview-land-a-job-and-get-a-raise-an-unconventional-method-for-programmers-5a5566b20f13#.lnnnd520t), but this post is already getting too long and you’re starting to give me evil eyes.
 
 ### Last Month: Servers, Databases and Connecting the Dots
 
