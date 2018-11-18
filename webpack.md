@@ -76,3 +76,5 @@ sudo npm install npm@latest -g
 2. [安装webpack-cli](https://segmentfault.com/a/1190000013699050)
 
 3. demo08 npm run build错误
+
+webpack版本和html-webpack-plugin版本不兼容，均升级到最新版即可

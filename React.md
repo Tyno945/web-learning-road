@@ -1,6 +1,13 @@
 # React 入门实例教程
 
+[React 技术栈系列教程](http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html)
+
 [教程链接](http://www.ruanyifeng.com/blog/2015/03/react.html)
+
+核心：
+
+1. 组件是最基础的构成单位
+2. 虚拟DOM，只渲染实际改变的真实DOM
 
 ## HTML 模板
 
@@ -293,3 +300,7 @@ ReactDOM.render(
 ); 
 ```
 
+
+## React Router 使用教程
+
+[react-router-tutorial](https://github.com/reactjs/react-router-tutorial)
