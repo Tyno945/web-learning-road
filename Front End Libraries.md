@@ -417,7 +417,9 @@ ReactDOM.render(JSX, document.getElementById("challenge-node"));
 
 * JSX Tags must Self-Closing
 
-2. 组件
+ > A `<div>`, on the other hand, can be written as `<div />` or `<div></div>`. The difference is that in the first syntax version there is no way to include anything in the `<div />`.
+
+1. 组件
 
 ```javascript
 // a Stateless Functional Component

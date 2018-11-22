@@ -12,6 +12,14 @@ npm i webpack webpack-dev-server webpack-cli -g
 npm i webpack webpack-dev-server webpack-cli --save-dev
 ```
 
+在国内，你可以安装 cnpm 获得更快速、更安全的包管理体验。使用如下命令安装：
+
+    npm install -g cnpm --registry=https://registry.npm.taobao.org
+然后你可以通过如下的命令确认是否成功：
+
+    cnpm -v
+通过 cnpm 你可以很方便的安装和管理一些第三方的包。
+
 3. 新建webpack.config.js文件
 
 ```js

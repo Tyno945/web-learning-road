@@ -301,6 +301,8 @@ ReactDOM.render(
 ```
 
 
-## React Router 使用教程
+## React Router
+
+[React Router 使用教程](http://www.ruanyifeng.com/blog/2016/05/react_router.html)
 
 [react-router-tutorial](https://github.com/reactjs/react-router-tutorial)
