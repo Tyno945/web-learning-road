@@ -413,13 +413,19 @@ const JSX = (
 ReactDOM.render(JSX, document.getElementById("challenge-node"));
 ```
 
-* 类命名，JSX uses className,用camelCase规则
+* 类命名，JSX 用className代替class属性,用camelCase规则
 
 * JSX Tags must Self-Closing
 
  > A `<div>`, on the other hand, can be written as `<div />` or `<div></div>`. The difference is that in the first syntax version there is no way to include anything in the `<div />`.
 
-1. 组件
+2. 组件
+
+Components are the core of React. Everything in React is a component
+
+There are two ways to create a React component. The first way is to use a `JavaScript function`. Defining a component in this way creates a stateless functional component.The other way to define a React component is with the ES6 `class` syntax.
+
+组件名首字母要大写
 
 ```javascript
 // a Stateless Functional Component
@@ -442,7 +448,7 @@ class Kitten extends React.Component {
   }
 }
 
-
+// compose multiple React components together
 const ChildComponent = () => {
   return (
     <div>
@@ -451,7 +457,7 @@ const ChildComponent = () => {
   );
 };
 
-// compose multiple React components together
+
 class ParentComponent extends React.Component {
   constructor(props) {
     super(props);
@@ -503,9 +509,13 @@ class TypesOfFood extends React.Component {
     );
   }
 };
+```
 
+Render a Class Component to the DOM
 
-// Render a Class Component to the DOM
+`ReactDOM.render(componentToRender, targetNode)`
+
+```JSX
 class TypesOfFood extends React.Component {
   constructor(props) {
     super(props);
