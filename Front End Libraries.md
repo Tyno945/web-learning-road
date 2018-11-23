@@ -636,6 +636,8 @@ class ResetPassword extends React.Component {
 
 4. 状态
 
+One of the most important topics in React is state. State consists of any data your application needs to know about, that can change over time. You want your apps to respond to state changes and present an updated UI when necessary.
+
 ```javascript
 // 初始化状态及使用状态
 class StatefulComponent extends React.Component {
@@ -700,7 +702,7 @@ class Counter extends React.Component {
 };
 ```
 
-5. 事件触发状态变更
+5. 可控组件，事件触发状态变更
 
 ```javascript
 class MyForm extends React.Component {
@@ -742,7 +744,13 @@ class MyForm extends React.Component {
     );
   }
 };
+```
 
+6. 状态组件下的数据传输
+
+This principle of separating state logic from UI logic is one of React's key principles. When it's used correctly, it makes the design of complex, stateful applications much easier to manage
+
+```JSX
 // 母组件和子组件的数据传输
 class MyApp extends React.Component {
   constructor(props) {
@@ -800,7 +808,9 @@ class RenderInput extends React.Component {
 };
 ```
 
-6. 组件的生命周期方法
+7. 组件的生命周期方法
+
+React components have several special methods that provide opportunities to perform actions at specific points in the lifecycle of a component. These are called lifecycle methods, or lifecycle hooks, and allow you to catch components at certain points in time. 
 
 * componentWillMount()
 
@@ -856,7 +866,7 @@ class MyComponent extends React.Component {
   }
 };
 
-// Add Event Listeners
+// Add Event Listeners, document.addEventListener
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
@@ -946,7 +956,7 @@ class OnlyEvens extends React.Component {
   shouldComponentUpdate(nextProps, nextState) {
     console.log('Should I update?');
      // change code below this line
-    return nextProps.value % 2 == 0 ? true : false;
+    return nextProps.value % 2 == 0;
      // change code above this line
   }
   componentWillReceiveProps(nextProps) {
