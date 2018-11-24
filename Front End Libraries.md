@@ -994,6 +994,215 @@ class Controller extends React.Component {
 };
 ```
 
+8. 内联样式
+
+```html
+<div style="color: yellow; font-size: 16px">Mellow Yellow</div>
+```
+React 的内联样式是对象,属性不能用-，属性值要在引号里
+```JSX
+<div style={{color: "yellow", fontSize: 16}}>Mellow Yellow</div>
+```
+
+9. 在render中直接写JavaScript，return里才是JSX
+
+use `if/else, &&, null and the ternary operator (condition ? expressionIfTrue : expressionIfFalse)` to make conditional decisions about what to render and when. 
+
+```jsx
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      display: true
+    }
+    this.toggleDisplay = this.toggleDisplay.bind(this);
+  }
+  toggleDisplay() {
+    this.setState({
+      display: !this.state.display
+    });
+  }
+  render() {
+    return (
+       <div>
+         <button onClick={this.toggleDisplay}>Toggle Display</button>
+         {/* &&运算符简化if-else */}
+         {this.state.display && <h1>Displayed!</h1>}
+       </div>
+    );
+  }
+};
+```
+
+利用参数传递来进行条件渲染
+
+```jsx
+class Results extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <h1>
+      {
+        this.props.fiftyFifty ? "You win!" : "You lose!"
+        /* change code here */
+      }
+      </h1>
+    )
+  };
+};
+
+class GameOfChance extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      counter: 1
+    }
+    this.handleClick = this.handleClick.bind(this);
+  }
+  handleClick() {
+    this.setState({
+      counter: this.state.counter + 1 // change code here
+    });
+  }
+  render() {
+    let expression = Math.random() > .5; // change code here
+    return (
+      <div>
+        <button onClick={this.handleClick}>Play Again</button>
+        { /* Using props to conditionally render code is very common with React developers */ }
+        <Results fiftyFifty={expression} />
+
+        { /* change code above this line */ }
+        <p>{'Turn: ' + this.state.counter}</p>
+      </div>
+    );
+  }
+};
+```
+
+10. 利用 `Array.map()`动态渲染
+
+```jsx
+const textAreaStyles = {
+  width: 235,
+  margin: 5
+};
+
+class MyToDoList extends React.Component {
+  constructor(props) {
+    super(props);
+    // change code below this line
+    this.state = {
+      toDoList: [],
+      userInput: ''
+    }
+    // change code above this line
+    this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleChange = this.handleChange.bind(this);
+  }
+  handleSubmit() {
+    const itemsArray = this.state.userInput.split(',');
+    this.setState({
+      toDoList: itemsArray
+    });
+  }
+  handleChange(e) {
+    this.setState({
+      userInput: e.target.value
+    });
+  }
+  render() {
+    // Array.map(),使key属性保持唯一
+    const items = this.state.toDoList.map((item, index) => <li key={index}>{item}</li>);
+    return (
+      <div>
+        <textarea
+          onChange={this.handleChange}
+          value={this.state.userInput}
+          style={textAreaStyles}
+          placeholder="Separate Items With Commas" /><br />
+        <button onClick={this.handleSubmit}>Create List</button>
+        <h1>My "To Do" List:</h1>
+        <ul>
+          {items}
+        </ul>
+      </div>
+    );
+  }
+};
+```
+
+11. 利用`Array.filter()`动态过滤数组
+
+```jsx
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      users: [
+        {
+          username: 'Jeff',
+          online: true
+        },
+        {
+          username: 'Alan',
+          online: false
+        },
+        {
+          username: 'Mary',
+          online: true
+        },
+        {
+          username: 'Jim',
+          online: false
+        },
+        {
+          username: 'Sara',
+          online: true
+        },
+        {
+          username: 'Laura',
+          online: true
+        }
+      ]
+    }
+  }
+  render() {
+    const usersOnline = this.state.users.filter(user => user.online); // 过滤出在线的用户
+    const renderOnline = usersOnline.map((user, index) => <li key={index}>{user.username}</li>); // 返回用户名列表
+    return (
+       <div>
+         <h1>Current Online Users:</h1>
+         <ul>
+           {renderOnline}
+         </ul>
+       </div>
+    );
+  }
+};
+```
+
+12. 服务器渲染`renderToString()`
+
+服务器渲染有利于搜索引擎，也有利于加快初次加载速度
+
+```jsx
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return <div>hello</div>
+  }
+};
+
+
+ReactDOMServer.renderToString(<App />)
+```
+
 ## Introduction to the Redux Challenges
 
 Redux is a predictable state container for JavaScript apps.
