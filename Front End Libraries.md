@@ -1225,6 +1225,7 @@ Redux is a predictable state container for JavaScript apps.
 * Remove an Item from an Array
 * Copy an Object with Object.assign
 
+案例
 
 ```javascript
 const INCREMENT = 'INCREMENT'; // define a constant for increment action types
@@ -1619,7 +1620,7 @@ const immutableReducer = (state = defaultState, action) => {
   switch(action.type) {
     case 'ONLINE':
       // don't mutate state here or the tests will fail
-      return Object.assign({}, defaultState, {status: 'online'});
+      return Object.assign({}, state, {status: 'online'});
     default:
       return state;
   }
@@ -1636,6 +1637,8 @@ const store = Redux.createStore(immutableReducer);
 
 ## Introduction to the React and Redux Challenges
 
+In a React Redux app, you create a single Redux store that manages the state of your entire app. Your React components subscribe to only the pieces of data in the store that are relevant to their role. Then, you dispatch actions directly from React components, which then trigger store updates.
+
 * Getting Started with React Redux
 * Manage State Locally First
 * Extract State Logic to Redux
@@ -1646,6 +1649,101 @@ const store = Redux.createStore(immutableReducer);
 * Connect Redux to the Messages App
 * Extract Local State into Redux
 * Moving Forward From Here
+
+### 重点学习
+
+1. 使用`Provider`连接Redux 到 React
+
+```jsx
+// Redux Code:
+const ADD = 'ADD';
+
+const addMessage = (message) => {
+  return {
+    type: ADD,
+    message
+  }
+};
+
+const messageReducer = (state = [], action) => {
+  switch (action.type) {
+    case ADD:
+      return [
+        ...state,
+        action.message
+      ];
+    default:
+      return state;
+  }
+};
+
+
+
+const store = Redux.createStore(messageReducer);
+
+// React Code:
+
+class DisplayMessages extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      input: '',
+      messages: []
+    }
+    this.handleChange = this.handleChange.bind(this);
+    this.submitMessage = this.submitMessage.bind(this);
+  }
+  handleChange(event) {
+    this.setState({
+      input: event.target.value
+    });
+  }
+  submitMessage() {
+    const currentMessage = this.state.input;
+    this.setState({
+      input: '',
+      messages: this.state.messages.concat(currentMessage)
+    });
+  }
+  render() {
+    return (
+      <div>
+        <h2>Type in a new Message:</h2>
+        <input
+          value={this.state.input}
+          onChange={this.handleChange}/><br/>
+        <button onClick={this.submitMessage}>Submit</button>
+        <ul>
+          {this.state.messages.map( (message, idx) => {
+              return (
+                 <li key={idx}>{message}</li>
+              )
+            })
+          }
+        </ul>
+      </div>
+    );
+  }
+};
+
+const Provider = ReactRedux.Provider;
+
+class AppWrapper extends React.Component {
+  // render the Provider here
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return  (
+      <Provider store={store}>
+        <DisplayMessages />
+      </Provider>
+    );
+  }
+  // change code above this line
+};
+```
 
 ## Vue
 
