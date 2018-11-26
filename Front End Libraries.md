@@ -427,7 +427,7 @@ There are two ways to create a React component. The first way is to use a `JavaS
 
 组件名首字母要大写
 
-```javascript
+```jsx
 // a Stateless Functional Component
 const DemoComponent = function() {
   return (
@@ -1267,9 +1267,11 @@ console.log(store.getState());
 
 1. Redux Store的创建和获取
 
-```javascript
-// In Redux, there is a single state object that's responsible for the entire state of your application
+Redux is a state management framework that can be used with a number of different web technologies, including React.
 
+In Redux, there is a single state object that's responsible for the entire state of your application. This also means that any time any piece of your app wants to update state, it must do so through the Redux store.
+
+```javascript
 const reducer = (state = 5) => {
   return state;
 }
@@ -1284,13 +1286,17 @@ const store = Redux.createStore(
   (state = 5) => state
 );
 
-// change code below this line
 let currentState = store.getState()
 ```
 2. 动作actions
 
+Since Redux is a state management framework, updating state is one of its core tasks. 
+
+In Redux, all state updates are triggered by dispatching actions. An action is simply a JavaScript object that contains information about an action event that has occurred.
+
+Think of Redux actions as messengers that deliver information about events happening in your app to the Redux store. The store then conducts the business of updating state based on the action that occurred.
+
 ```javascript
-// In Redux, all state updates are triggered by dispatching actions. An action is simply a JavaScript object that contains information about an action event that has occurred.
 const action = {
   type: 'LOGIN'
 }
@@ -1313,8 +1319,17 @@ const loginAction = () => {
 // Dispatch the action here:
 store.dispatch(loginAction());
 
+```
 
-// Reducers in Redux are responsible for the state modifications that take place in response to actions. The reducer is simply a pure function that takes state and action, then returns new state.
+3. store对action的反馈
+
+After an action is created and dispatched, the Redux store needs to know how to respond to that action. This is the job of a `reducer` function. 
+
+Reducers in Redux are responsible for the state modifications that take place in response to actions. The `reducer` is simply a pure function that takes `state` and `action`, then returns new `state`.
+
+Another key principle in Redux is that state is read-only. In other words, the reducer function must always return a new copy of state and never modify state directly.
+
+```js
 
 const LOGIN = 'LOGIN';
 
@@ -1331,12 +1346,12 @@ const authReducer = (state = defaultState, action) => {
     case LOGIN:
       return {
         authenticated: true
-      }
+      };
 
     case LOGOUT:
       return {
         authenticated: false
-      }
+      };
 
     default:
       return state;
@@ -1360,7 +1375,7 @@ const logoutUser = () => {
 };
 ```
 
-3. 监听器
+3. 监听器`store.subscribe()`
 
 ```javascript
 const ADD = 'ADD';
@@ -1394,7 +1409,7 @@ console.log(count);
 
 ```
 
-4. 合并Reducers
+4. 合并Reducers, `Redux.combineReducers`
 
 ```javascript
 
@@ -1440,7 +1455,7 @@ const store = Redux.createStore(rootReducer);
 
 ```
 
-5. 传入带数据的动作
+5. 传入带数据的action
 
 ```javascript
 //  You can also send specific data along with your actions
